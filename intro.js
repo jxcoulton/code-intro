@@ -1,4 +1,4 @@
-const readline = require(`readlilne`)
+const readline = require(`readline`)
 
 //console.log(`Hello, World`)
 
@@ -28,11 +28,11 @@ const lastName = `Coulton`;
 const Jayme = `${firstName} ${lastName}`
 
 
-const reader = readline.creatInterface({
+const reader = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 })
 
-reader.question("What is You'r name?," function(answer) {
+reader.question("What is You'r name?", function(answer) {
     console.log(`Hi ${answer}`)
 })
